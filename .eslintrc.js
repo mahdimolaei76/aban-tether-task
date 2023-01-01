@@ -25,5 +25,12 @@ module.exports = {
       "react",
       "@typescript-eslint"
   ],
-  "rules": {}
+  "rules": {
+    'prettier/prettier': [
+        'error',
+        {
+          'endOfLine': 'auto',
+        }
+      ]
+  }
 }

@@ -1,6 +1,6 @@
 export interface IconButtonPropsTypes {
-  text : string,
-  onClick : ()=> void,
-  style ?: Object,
-  iconSrc : string,
+  text: string;
+  onClick: () => void;
+  style?: Object;
+  iconSrc: string;
 }

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .full-row {
+    width: 100%;
+    display: flex;
+    padding: 1em 3em;
+  }
+}

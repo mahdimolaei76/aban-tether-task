@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { IconButtonPropsTypes } from "./iconButton.types";
 const IconButton = (props: IconButtonPropsTypes) => {
-  const {
-    text,
-    onClick,
-    style,
-    iconSrc,
-  } = props;
+  const { text, onClick, style, iconSrc } = props;
 
   return (
-    <div className="flex-center" onClick={onClick} style={style}>
-      <img className="w-1 h-1" src={iconSrc}/>
-      <span>{text}</span>
+    <div className="w-48 pr-8 flex-center relative" onClick={onClick} style={style}>
+      <img className="w-4 h-4 absolute right-4 t-1/2 -translate-y-2/4" src={iconSrc} alt="" />
+      <span className="text-gray-300 w-36">{text}</span>
     </div>
   );
 };
-
 
 export default IconButton;
