@@ -1,0 +1,6 @@
+.toggle-button-option{
+    &:after {
+        transition: right 500ms ease, 
+        box-shadow 500ms ease;
+      }
+}
