@@ -4,7 +4,10 @@
 @layer utilities {
   .full-row {
     width: 100%;
+    padding: 0.8em 3em;
     display: flex;
-    padding: 1em 3em;
+  }
+  .text-gray-holder{
+    color: rgb(199, 199, 199);
   }
 }
